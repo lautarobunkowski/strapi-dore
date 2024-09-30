@@ -32,15 +32,6 @@
       "target": "api::categoria.categoria",
       "mappedBy": "items"
     },
-    "imagen": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "files"
-      ]
-    },
     "precio": {
       "type": "integer",
       "required": true,
